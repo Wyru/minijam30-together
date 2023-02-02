@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e01066ce10f21941813ae44f1dd5fcd, type: 3}
+  m_Name: SoundList
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: slime_death
+    clip: {fileID: 8300000, guid: 60a214dab06d8ce4aa37c1f87c033a0e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: player_attack
+    clip: {fileID: 8300000, guid: b368c1b6361bc0c4e9294700e9b2e9ed, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: player_get_heart
+    clip: {fileID: 8300000, guid: 5eee14aa572f1f7499edcdf16155cf8a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: menu_select
+    clip: {fileID: 8300000, guid: 40f13b326c2cf3e4485938cdc86ce594, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: menu_click
+    clip: {fileID: 8300000, guid: 02dee12c63307594e8ec50c9cab3fd54, type: 3}
+    volume: 0.785
+    pitch: 0.95
+    loop: 0
